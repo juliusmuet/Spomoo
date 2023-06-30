@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_questionnaire"
+    app:startDestination="@id/questionnaire_MDBF_Fragment">
+
+    <fragment
+        android:id="@+id/questionnaire_MDBF_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_MDBF_Fragment"
+        android:label="@string/title_questionnaire_mdbf"
+        tools:layout="@layout/fragment_questionnaire__mdbf" >
+        <action
+            android:id="@+id/action_questionnaire_MDBF_Fragment_to_questionnaire_EventAppraisal_Fragment"
+            app:destination="@id/questionnaire_EventAppraisal_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_EventAppraisal_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_EventAppraisal_Fragment"
+        android:label="@string/title_questionnaire_eventappraisal"
+        tools:layout="@layout/fragment_questionnaire__event_appraisal" >
+        <action
+            android:id="@+id/action_questionnaire_EventAppraisal_Fragment_to_questionnaire_SocialContext_Fragment"
+            app:destination="@id/questionnaire_SocialContext_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_SocialContext_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_SocialContext_Fragment"
+        android:label="@string/title_questionnaire_socialcontext"
+        tools:layout="@layout/fragment_questionnaire__social_context" >
+        <action
+            android:id="@+id/action_questionnaire_SocialContext_Fragment_to_questionnaire_Location_Fragment"
+            app:destination="@id/questionnaire_Location_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_Location_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_Location_Fragment"
+        android:label="@string/title_questionnaire_location"
+        tools:layout="@layout/fragment_questionnaire__location" >
+        <action
+            android:id="@+id/action_questionnaire_Location_Fragment_to_questionnaire_Rumination_Fragment"
+            app:destination="@id/questionnaire_Rumination_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_Rumination_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_Rumination_Fragment"
+        android:label="@string/title_questionnaire_rumination"
+        tools:layout="@layout/fragment_questionnaire__rumination" >
+        <action
+            android:id="@+id/action_questionnaire_Rumination_Fragment_to_questionnaire_SelfWorth_Fragment"
+            app:destination="@id/questionnaire_SelfWorth_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_SelfWorth_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_SelfWorth_Fragment"
+        android:label="@string/title_questionnaire_selfworth"
+        tools:layout="@layout/fragment_questionnaire__self_worth" >
+        <action
+            android:id="@+id/action_questionnaire_SelfWorth_Fragment_to_questionnaire_Impulsive_Fragment"
+            app:destination="@id/questionnaire_Impulsive_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_Impulsive_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_Impulsive_Fragment"
+        android:label="@string/title_questionnaire_impulsive"
+        tools:layout="@layout/fragment_questionnaire__impulsive" >
+        <action
+            android:id="@+id/action_questionnaire_Impulsive_Fragment_to_questionnaire_Message_Fragment"
+            app:destination="@id/questionnaire_Message_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaire_Message_Fragment"
+        android:name="com.example.spomoo.questionnaire.Questionnaire_Message_Fragment"
+        android:label="@string/title_questionnaire_message"
+        tools:layout="@layout/fragment_questionnaire__message" />
+</navigation>

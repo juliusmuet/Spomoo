@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_login"
+    app:startDestination="@id/login_Fragment">
+    <fragment
+        android:id="@+id/login_Fragment"
+        android:name="com.example.spomoo.login.Login_Fragment"
+        android:label="@string/title_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_Fragment_to_registration_Fragment"
+            app:destination="@id/registration_Fragment" />
+        <action
+            android:id="@+id/action_login_Fragment_to_registration_Confirm_Fragment"
+            app:destination="@id/registration_Confirm_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registration_Fragment"
+        android:name="com.example.spomoo.login.Registration_Fragment"
+        android:label="@string/title_registration"
+        tools:layout="@layout/fragment_login_registration" >
+        <action
+            android:id="@+id/action_registration_Fragment_to_registration_Confirm_Fragment"
+            app:destination="@id/registration_Confirm_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registration_Confirm_Fragment"
+        android:name="com.example.spomoo.login.Registration_Confirm_Fragment"
+        android:label="@string/title_registration"
+        tools:layout="@layout/fragment_login_registration__confirm" />
+</navigation>

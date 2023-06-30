@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questionnaire.Questionnaire_MDBF_Fragment"
+    android:id="@+id/questionnaire_mdbf_constraint_layout">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout_questionnaire_mdbf"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".questionnaire.QuestionnaireMDBFActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".questionnaire.QuestionnaireMDBFActivity">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_heading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_heading1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_heading2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_heading2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_heading1" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_satisfied_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_satisfied_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_heading2" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_mdbf_barSatisfied"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_satisfied_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_dissatisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_dissatisfied"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barSatisfied" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_satisfied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_satisfied"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barSatisfied" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_calm_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_calm_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barSatisfied" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_mdbf_barCalm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_calm_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_restless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_restless"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barCalm" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_calm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_calm"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barCalm" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_well_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_well_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barCalm" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_mdbf_barWell"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_well_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_unwell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_unwell"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barWell" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_well"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_well"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barWell" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_relaxed_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_relaxed_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barWell" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_mdbf_barRelaxed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_relaxed_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_tense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_tense"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barRelaxed" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_relaxed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_relaxed"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barRelaxed" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_energetic_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_energetic_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barRelaxed" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_mdbf_barEnergetic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_energetic_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_powerless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_powerless"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barEnergetic" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_energetic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_energetic"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barEnergetic" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_awake_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_awake_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barEnergetic" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_mdbf_barAwake"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_awake_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_tired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_tired"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barAwake" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_mdbf_awake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_mdbf_awake"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_mdbf_barAwake" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout_questionnaire_mdbf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/questionnaire_mdbf_constraint_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_bar_questionnaire_mdbf"
+            style="@style/Widget.Material3.BottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:fabAlignmentMode="end"
+            app:menu="@menu/bottom_navigation_questionnaire" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/questionnaire_mdbf_fab_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/bottom_bar_questionnaire_mdbf"
+            app:srcCompat="@drawable/baseline_arrow_forward_24" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

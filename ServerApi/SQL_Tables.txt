@@ -1,0 +1,98 @@
+CREATE TABLE tempusers(
+	id int NOT NULL AUTO_INCREMENT,
+	username varchar(15) NOT NULL,
+	email text NOT NULL,
+	gender varchar(8) NOT NULL,
+	birthday varchar(10) NOT NULL,
+	height int NOT NULL,
+	weight int NOT NULL,
+	regdate char(10) NOT NULL,
+	temppassword char(8) NOT NULL,
+	CONSTRAINT tempusers_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE users(
+	id int NOT NULL AUTO_INCREMENT,
+	username varchar(15) NOT NULL,
+	email text NOT NULL,
+	gender varchar(8) NOT NULL,
+	birthday varchar(10) NOT NULL,
+	height int NOT NULL,
+	weight int NOT NULL,
+	regdate char(10) NOT NULL,
+	password text NOT NULL,
+	temppassword varchar(8),
+	CONSTRAINT users_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE accelerometer(
+	id int NOT NULL AUTO_INCREMENT,
+	xaxis float(2) NOT NULL,
+	yaxis float(2) NOT NULL,
+	zaxis float(2) NOT NULL,
+	acceleration float(2) NOT NULL,
+	date char(10) NOT NULL,
+	time char(5) NOT NULL,
+	userid int NOT NULL,
+	CONSTRAINT accelerometer_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE rotation(
+	id int NOT NULL AUTO_INCREMENT,
+	xrotation float(2) NOT NULL,
+	yrotation float(2) NOT NULL,
+	zrotation float(2) NOT NULL,
+	scalar float(2) NOT NULL,
+	date char(10) NOT NULL,
+	time char(5) NOT NULL,
+	userid int NOT NULL,
+	CONSTRAINT rotation_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE steps(
+	id int NOT NULL AUTO_INCREMENT,
+	steps int NOT NULL,
+	date char(10) NOT NULL,
+	userid int NOT NULL,
+	CONSTRAINT steps_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE sport(
+	id int NOT NULL AUTO_INCREMENT,
+	type text NOT NULL,
+	start char(5) NOT NULL,
+	duration char(8) NOT NULL,
+	intensity int NOT NULL,
+	date char(10) NOT NULL,
+	userid int NOT NULL,
+	CONSTRAINT sport_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE questionnaire(
+	id int NOT NULL AUTO_INCREMENT,
+	mdbf_satisfied int NOT NULL,
+	mdbf_calm int NOT NULL,
+	mdbf_well int NOT NULL,
+	mdbf_relaxed int NOT NULL,
+	mdbf_energetic int NOT NULL,
+	mdbf_awake int NOT NULL,
+	event_negative int NOT NULL,
+	event_positive int NOT NULL,
+	social_alone int NOT NULL,
+	social_dislike int NOT NULL,
+	social_people text NOT NULL,
+	location text NOT NULL,
+	rumination_properties int NOT NULL,
+	rumination_rehash int NOT NULL,
+	rumination_turnoff int NOT NULL,
+	rumination_dispute int NOT NULL,
+	selfworth_satisfied int NOT NULL,
+	selfworth_dissatisfied int NOT NULL,
+	impulsive int NOT NULL,
+	impulsive_angry int NOT NULL,
+	message text NOT NULL,
+	date char(10) NOT NULL,
+	time char(5) NOT NULL,
+	userid int NOT NULL,
+	CONSTRAINT questionnaire_pk PRIMARY KEY (id)
+);

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main_Home">
+
+    <fragment
+        android:id="@+id/main_Home"
+        android:name="com.example.spomoo.mainscreen.Main_Home_Fragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_main__home" />
+    <fragment
+        android:id="@+id/main_Record"
+        android:name="com.example.spomoo.mainscreen.Main_Record_Fragment"
+        android:label="@string/title_record"
+        tools:layout="@layout/fragment_main__record"/>
+    <fragment
+        android:id="@+id/main_Data"
+        android:name="com.example.spomoo.mainscreen.Main_Data_Fragment"
+        android:label="@string/title_data"
+        tools:layout="@layout/fragment_main__data" />
+    <fragment
+        android:id="@+id/main_Settings"
+        android:name="com.example.spomoo.mainscreen.Main_Settings_Fragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_main__settings" />
+
+</navigation>

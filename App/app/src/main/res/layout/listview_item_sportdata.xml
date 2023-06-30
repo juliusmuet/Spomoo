@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/listview_sport_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Type"
+        android:textStyle="bold"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/listview_sport_start_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Time"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/listview_sport_duration_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Duration"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/listview_sport_intensity_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:hint="Intensity"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+</LinearLayout>

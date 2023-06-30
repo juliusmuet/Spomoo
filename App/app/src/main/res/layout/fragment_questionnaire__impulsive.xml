@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questionnaire.Questionnaire_Impulsive_Fragment"
+    android:id="@+id/questionnaire_impulsive_constraint_layout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout_questionnaire_impulsive"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_heading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_impulsive_heading1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_heading2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_impulsive_heading2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_heading1" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_approval_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_heading2" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_impulsive_barImpulsive"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="6"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_no_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_approval_no"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_barImpulsive" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_yes_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_approval_yes"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_barImpulsive" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_heading3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_impulsive_heading3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_barImpulsive" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_angry_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_approval_value"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_heading3" />
+
+            <SeekBar
+                android:id="@+id/questionnaire_impulsive_barAngry"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="6"
+                android:progress="0"
+                android:progressDrawable="@drawable/questionnaire_slider_track"
+                android:splitTrack="false"
+                android:thumb="@drawable/questionnaire_slider_thumb"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_angry_value" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_no_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_approval_no"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_barAngry" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/questionnaire_impulsive_yes_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="@string/questionnaire_approval_yes"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/questionnaire_impulsive_barAngry" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout_questionnaire_impulsive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/questionnaire_impulsive_constraint_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_bar_questionnaire_impulsive"
+            style="@style/Widget.Material3.BottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:fabAlignmentMode="end"
+            app:menu="@menu/bottom_navigation_questionnaire" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/questionnaire_impulsive_fab_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/bottom_bar_questionnaire_impulsive"
+            app:srcCompat="@drawable/baseline_arrow_forward_24" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

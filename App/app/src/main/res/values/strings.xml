@@ -1,0 +1,403 @@
+<resources>
+    <string name="app_name">Spomoo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_login">Login</string>
+    <string name="title_registration">Registration</string>
+
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_not_registered">Not registered yet? Click <u>here</u>!</string>
+    <string name="login_not_verfified">Registration not completed? Click <u>here</u>!</string>
+    <string name="login_invalid_email">Enter a valid eMail-Address</string>
+    <string name="login_no_password">Enter your password</string>
+    <string name="login_dialog_loading_title">Logging in</string>
+    <string name="login_dialog_loading_content">Loading your uploaded data. Please do not close the app!</string>
+    <string name="register_continue">Continue</string>
+    <string name="register_change_data">Personal data can be changed in settings later</string>
+    <string name="register_enter_username">Enter a Username</string>
+    <string name="register_enter_email">Enter your eMail-Address</string>
+    <string name="register_password_temporary_hint">Temporary Password</string>
+    <string name="register_password_repeat_hint">Password (repeat)</string>
+    <string name="register_password_requirements">Password must have minimum: \n one lower and upper case letter \n one digit \n one special symbol \n 6 characters</string>
+    <string name="register_enter_all_passwords">Enter all fields</string>
+    <string name="register_password_no_match">Passwords do not match</string>
+    <string name="register_send_again">No eMail received?\nClick <u>here</u> to get a new eMail!</string>
+
+    <string name="login_store_data_notification_channel">Saving Backup Service</string>
+    <string name="login_store_data_notification_title">Saving Backup</string>
+
+    <string name="request_permission_dialog_title">Permission Step Counter</string>
+    <string name="request_permission_dialog_content">Please grant the following permission so that your steps can be counted</string>
+    <string name="request_permission_dialog_okay">Okay</string>
+
+    <string name="privacy_policy_dialog_title">Privacy Policy</string>
+    <string name="privacy_policy_dialog_content">Please agree to our privacy policy.\nInformation about our privacy policy can be found <u>here</u>.</string>
+    <string name="privacy_policy_dialog_yes">Agree</string>
+
+    <string name="title_reset_password">Change Password</string>
+
+    <string name="reset_password_new">New Password</string>
+    <string name="reset_password_new_repeat">New Password (repeat)</string>
+    <string name="reset_password_change">Change Password</string>
+    <string name="reset_password_temporary_incorrect">Temporary password is incorrect</string>
+    <string name="reset_password_success">Password changed</string>
+    <string name="reset_password_email_not_exist">The eMail-Address is not registered</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_record">Record</string>
+    <string name="title_data">Data</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="main_send_data_dialog_title">Sending Data</string>
+    <string name="main_send_data_confirm_dialog_content">Do you want to send all your recorded and stored data to us?</string>
+    <string name="main_send_data_confirm_dialog_yes">Yes, send data</string>
+    <string name="main_send_data_confirm_dialog_no">No</string>
+    <string name="main_send_data_dialog_content">Please do not close the app!</string>
+    <string name="main_send_data_notification_channel">Send Data Service</string>
+    <string name="main_send_data_notification_title">Sending Data</string>
+    <string name="main_send_data_notification_content">Progress</string>
+    <string name="main_send_data_notification_unit">%</string>
+    <string name="main_send_data_finished">Finished sending data</string>
+
+    <string name="main_record_heading_1">Record Sport</string>
+    <string name="main_record_info_1">Record a sport activity live!</string>
+    <string name="main_record_heading_2">Past Sport</string>
+    <string name="main_record_info_2">Save a not recorded sport activity!</string>
+    <string name="main_record_heading_3">Questionnaire</string>
+    <string name="main_record_info_3">Answer a questionnaire about your mental health!</string>
+
+    <string-array name="sport_types_array">
+        <item>Aerobics</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Beach-Volleyball</item>
+        <item>Bicycling</item>
+        <item>Bodyforming</item>
+        <item>Bouldering</item>
+        <item>Calisthenics</item>
+        <item>Canoeing</item>
+        <item>Capoeira</item>
+        <item>Climbing</item>
+        <item>Crossfit</item>
+        <item>Cycling</item>
+        <item>Dancing</item>
+        <item>Freeclimbing</item>
+        <item>Frisbee</item>
+        <item>Football</item>
+        <item>Golf</item>
+        <item>Gymnastics</item>
+        <item>Handball</item>
+        <item>Hiking</item>
+        <item>Hockey</item>
+        <item>Horse Riding</item>
+        <item>Ice-Skating</item>
+        <item>Ice-Hockey</item>
+        <item>Inline Skating</item>
+        <item>Jogging</item>
+        <item>Judo</item>
+        <item>Kitesurfing</item>
+        <item>Marathon Run</item>
+        <item>Mountain Biking</item>
+        <item>Nordic Walking</item>
+        <item>Pilates</item>
+        <item>Rowing</item>
+        <item>Rollerblading</item>
+        <item>Running</item>
+        <item>Sailing</item>
+        <item>Skateboarding</item>
+        <item>Skiing</item>
+        <item>Skating</item>
+        <item>Snowboarding</item>
+        <item>Strength Training</item>
+        <item>Surfing</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tai Chi</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+        <item>Walking</item>
+        <item>Water Aerobics</item>
+        <item>Yoga</item>
+        <item>Zumba</item>
+    </string-array>
+
+    <string name="record_live_sport_text">Enter sport activity</string>
+    <string name="record_live_toggle_button_off">Record</string>
+    <string name="record_live_toggle_button_on">Finish</string>
+    <string name="record_live_notification_content">Time</string>
+    <string name="record_live_notification_channel">Timer Recording</string>
+    <string name="record_live_notification_unit">s</string>
+    <string name="record_live_insert_sport">Enter a sport activity firstly</string>
+    <string name="record_live_recorded">Sport activity recorded</string>
+
+    <string name="save_past_sport_date">Date</string>
+    <string name="save_past_sport_start">Starting Time</string>
+    <string name="save_past_sport_start_enter">Select starting time</string>
+    <string name="save_past_sport_duration">Duration</string>
+    <string name="save_past_sport_duration_enter">Select duration</string>
+    <string name="save_past_sport_save">Save</string>
+    <string name="save_past_sport_missing">Enter all data</string>
+    <string name="save_past_sport_saved">Sport activity saved</string>
+
+    <string name="sport_intensity_title">Sport Intensity</string>
+    <string name="sport_intensity_heading">How strenuous was the training for you?</string>
+    <string name="sport_intensity_value">Level of Effort:</string>
+    <string name="sport_intensity_value_1">not at all strenuous\n(no physical activity)</string>
+    <string name="sport_intensity_value_2">extremely easy\n(low physical activity)</string>
+    <string name="sport_intensity_value_3">very easy\n(like walking at your own pace)</string>
+    <string name="sport_intensity_value_4">easy\n(like walking faster)</string>
+    <string name="sport_intensity_value_5">somewhat strenuous\n(I can go on well with the load)</string>
+    <string name="sport_intensity_value_6">strenuous\n(continuation is still possible)</string>
+    <string name="sport_intensity_value_7">very strenuous\n(I will soon be exhausted)</string>
+    <string name="sport_intensity_value_8">extremely strenuous\n(strongest load ever experienced)</string>
+    <string name="sport_intensity_value_9">maximum load\n(overexertion)</string>
+    <string name="sport_intensity_data">Intensity</string>
+
+    <string name="questionnaire_skip"><u>Skip</u></string>
+    <string name="questionnaire_saved">Answers saved</string>
+
+    <string name="questionnaire_reminder_channel">Questionnaire Reminder</string>
+    <string name="questionnaire_reminder_title">Questionnaire Reminder</string>
+    <string name="questionnaire_reminder_content">Answer a questionnaire</string>
+
+    <string name="title_questionnaire_mdbf">Questions MDBF</string>
+    <string name="questionnaire_mdbf_heading1">MDBF</string>
+    <string name="questionnaire_mdbf_heading2">In the last 24 hours I felt in average...</string>
+    <string name="questionnaire_mdbf_satisfied_value">Satisfied:</string>
+    <string name="questionnaire_mdbf_dissatisfied">dissatisfied</string>
+    <string name="questionnaire_mdbf_satisfied">satisfied</string>
+    <string name="questionnaire_mdbf_calm_value">Calm:</string>
+    <string name="questionnaire_mdbf_restless">restless</string>
+    <string name="questionnaire_mdbf_calm">calm</string>
+    <string name="questionnaire_mdbf_well_value">Well:</string>
+    <string name="questionnaire_mdbf_unwell">unwell</string>
+    <string name="questionnaire_mdbf_well">well</string>
+    <string name="questionnaire_mdbf_relaxed_value">Relaxed:</string>
+    <string name="questionnaire_mdbf_tense">tense</string>
+    <string name="questionnaire_mdbf_relaxed">relaxed</string>
+    <string name="questionnaire_mdbf_energetic_value">Energetic:</string>
+    <string name="questionnaire_mdbf_powerless">powerless</string>
+    <string name="questionnaire_mdbf_energetic">energetic</string>
+    <string name="questionnaire_mdbf_awake_value">Awake:</string>
+    <string name="questionnaire_mdbf_awake">awake</string>
+    <string name="questionnaire_mdbf_tired">tired</string>
+
+    <string name="title_questionnaire_eventappraisal">Questions Events</string>
+    <string name="questionnaire_eventappraisal_heading1">Event-Appraisal</string>
+    <string name="questionnaire_eventappraisal_heading2">Have you experienced one or more <u>negative</u> events since the last query? How intense was the most important <u>negative</u> event?</string>
+    <string name="questionnaire_eventappraisal_heading3">Have you experienced one or more <u>positive</u> events since the last query? How intense was the most important <u>positive</u> event?</string>
+    <string name="questionnaire_eventappraisal_intensity_value">Intensity:</string>
+    <string name="questionnaire_eventappraisal_no">no event</string>
+    <string name="questionnaire_eventappraisal_intense">very intensive</string>
+
+    <string name="title_questionnaire_socialcontext">Questions Social Surrounding</string>
+    <string name="questionnaire_socialcontext_heading1">Social Surrounding</string>
+    <string name="questionnaire_socialcontext_heading2">Are you alone at the moment?</string>
+    <string name="questionnaire_socialcontext_heading3">When you think of the people you are surrounded, how does the following statement apply? I do not like these people!</string>
+    <string name="questionnaire_socialcontext_heading4">What kind of people are nearby?</string>
+    <string name="questionnaire_socialcontext_value">Approval:</string>
+    <string name="questionnaire_socialcontext_no">do not agree</string>
+    <string name="questionnaire_socialcontext_yes">totally agree</string>
+    <string-array name="questionnaire_socialcontext_people_array">
+        <item>Life Partner</item>
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Colleagues</item>
+        <item>Strangers</item>
+    </string-array>
+
+    <string name="title_questionnaire_location">Questions Location</string>
+    <string name="questionnaire_location_heading1">Location</string>
+    <string name="questionnaire_location_heading2">Where are you at the moment?</string>
+    <string-array name="questionnaire_locations_array">
+        <item>At Home</item>
+        <item>At Work</item>
+        <item>At Sports</item>
+        <item>Other Hobby</item>
+        <item>Shopping</item>
+        <item>At a Visit</item>
+    </string-array>
+
+    <string name="questionnaire_approval_value">Approval:</string>
+    <string name="questionnaire_approval_no">do not agree</string>
+    <string name="questionnaire_approval_yes">totally agree</string>
+
+    <string name="title_questionnaire_rumination">Questions Rumination</string>
+    <string name="questionnaire_rumination_heading1">Thoughts</string>
+    <string name="questionnaire_rumination_item1">My attention is often focused on properties of mine that I would rather not think about any more</string>
+    <string name="questionnaire_rumination_item2">I always feel as if I am rehashing things in my head that I have said or done</string>
+    <string name="questionnaire_rumination_item3">Sometimes I find it hard to turn off thoughts about myself</string>
+    <string name="questionnaire_rumination_item4">Long after a dispute or disagreement is settled, my thoughts return to what happened</string>
+
+    <string name="title_questionnaire_selfworth">Questions Self-Worth</string>
+    <string name="questionnaire_selfworth_heading1">Self-Worth</string>
+    <string name="questionnaire_selfworth_heading2">At the moment I am <u>satisfied</u> with myself</string>
+    <string name="questionnaire_selfworth_heading3">At the moment I am <u>not satisfied</u> with myself</string>
+
+    <string name="title_questionnaire_impulsive">Questions Impulsiveness</string>
+    <string name="questionnaire_impulsive_heading1">Impulsiveness</string>
+    <string name="questionnaire_impulsive_heading2">Since the last query, I have acted on impulse, i.e. I have acted without thinking about possible consequences</string>
+    <string name="questionnaire_impulsive_heading3">Since the last query, I have been angry or aggressive towards another person, which I regretted afterwards</string>
+
+    <string name="title_questionnaire_message">Own Note</string>
+    <string name="questionnare_message_enter">Enter your note here</string>
+    <string name="questionnare_message_error">Note is too long</string>
+
+    <string-array name="main_settings_notification_time_values">
+        <item>8</item>
+        <item>20</item>
+    </string-array>
+    <string name="main_settings_notifications_heading">Push-Notifications</string>
+    <string name="main_settings_notifications_questionnaire_amount_heading">Questionnaire Reminder Amount</string>
+    <string name="main_settings_notifications_questionnaire_time_heading">Questionnaire Reminder Time Span</string>
+    <string name="main_settings_notifications_disable_heading">Sensors Notification</string>
+    <string name="main_settings_notifications_disable_description">Deactivate the sensors recording notification in the settings</string>
+    <string name="main_settings_account_heading">Account</string>
+    <string name="main_settings_account_description">Edit Account Data</string>
+    <string name="main_settings_sensors_heading">Sensor Recording</string>
+    <string name="main_settings_sensor_accelerometer_heading">Accelerometer</string>
+    <string name="main_settings_sensor_accelerometer_description">Record the acceleration</string>
+    <string name="main_settings_sensor_rotation_heading">Rotation Sensor</string>
+    <string name="main_settings_sensor_rotation_description">Record the rotation</string>
+    <string name="main_settings_sensor_steps_heading">Step Counter</string>
+    <string name="main_settings_sensor_steps_description">Record your steps</string>
+    <string name="main_settings_step_dialogue_heading">Grant Permission</string>
+    <string name="main_settings_step_dialogue_content">Grant the \"Physical Activity\" Permission in the app\'s settings to use the step counter</string>
+    <string name="main_settings_step_dialogue_negative">Decline</string>
+    <string name="main_settings_step_dialogue_positive">Okay</string>
+    <string name="main_settings_sensor_boot_heading">Start recording instantly</string>
+    <string name="main_settings_sensor_boot_description">Record after mobile turn on</string>
+    <string name="main_settings_other_heading">Other</string>
+    <string name="main_settings_other_theme_heading">Color Palette</string>
+    <string name="main_settings_other_theme_description">Use your system color palette</string>
+    <string name="main_settings_other_aboutus_heading">About Us</string>
+    <string name="main_settings_other_privacy_heading">Data Privacy</string>
+    <string name="main_settings_other_logout_heading">Logout</string>
+    <string name="main_settings_other_logout_dialog_title">Are you sure?</string>
+    <string name="main_settings_other_logout_dialog_content">Upload all your data before you log out so that the data is not lost. Are you sure you want to unsubscribe?</string>
+    <string name="main_settings_other_logout_dialog_yes">Yes, log out</string>
+    <string name="main_settings_other_logout_dialog_no">No</string>
+
+    <string name="settings_edit_account_title">Account Data</string>
+    <string name="settings_edit_account_username">Username</string>
+    <string name="settings_edit_account_username_length_error">Too short</string>
+    <string name="settings_edit_account_email">eMail-Address (@gmail.com)</string>
+    <string name="settings_edit_account_gender">Gender</string>
+    <string name="settings_edit_account_gender_male">Male</string>
+    <string name="settings_edit_account_gender_female">Female</string>
+    <string name="settings_edit_account_gender_no">not specified</string>
+    <string name="settings_edit_account_birthday">Birthday</string>
+    <string name="settings_edit_account_birthday_enter">Select birthday</string>
+    <string name="settings_edit_account_height">Body Height (cm)</string>
+    <string name="settings_edit_account_weight">Body Weight (kg)</string>
+    <string name="settings_edit_account_input_error">Invalid</string>
+    <string name="settings_edit_account_input_save_error">There are invalid inputs</string>
+    <string name="settings_edit_account_input_save_date">Next change is possible on:</string>
+    <string name="settings_edit_account_password_dialog_title">Enter your password</string>
+    <string name="settings_edit_account_password_dialog_confirm">Confirm</string>
+    <string name="settings_edit_account_password_dialog_incorrect">Password is incorrect</string>
+    <string name="settings_edit_account_saved">Saved personal data</string>
+
+    <string name="settings_data_privacy_title">Data Privacy</string>
+    <string name="settings_data_privacy_send_email">If you have any questions regarding data protection, please feel free to send us an email.</string>
+    <string name="settings_data_privacy_email_address">test@test.com</string>
+    <string name="settings_data_privacy_email_subject">Spomoo Data Privacy Question</string>
+    <string name="settings_data_privacy_email_content">Dear Spomoo-Team,\n</string>
+    <string name="settings_data_privacy_email_chooser">Send email using...</string>
+    <string name="settings_data_privacy_email_chooser_failure">No email clients installed.</string>
+    <string name="settings_data_privacy_content">Information about our data protection can be found <u>here</u>.</string>
+
+    <string name="record_sensors_notification_channel">Sensor Recording</string>
+    <string name="record_sensors_notification_title">Sensors Recording</string>
+    <string name="record_accelerometer_notification_content">Your acceleration</string>
+    <string name="record_accelerometer_notification_unit">m/s²</string>
+    <string name="record_rotation_notification_content">Your rotation</string>
+    <string name="record_steps_notification_content">Your steps</string>
+
+    <string name="main_home_morning_text">Good Morning</string>
+    <string name="main_home_day_text">Hello</string>
+    <string name="main_home_afternoon_text">Good Afternoon</string>
+    <string name="main_home_evening_text">Good Evening</string>
+    <string name="main_home_night_text">Good Night</string>
+    <string name="main_home_activity"><u>Activity</u></string>
+    <string name="main_home_activity_duration"><u>Sport Duration</u></string>
+    <string name="main_home_activity_duration_hour">h</string>
+    <string name="main_home_activity_duration_minute">min</string>
+    <string name="main_home_activity_steps"><u>Steps</u></string>
+    <string name="main_home_activity_steps_inactive">inactive</string>
+    <string name="main_home_mental"><u>State of Mind</u></string>
+    <string name="main_home_mental_mood"><u>Mood</u></string>
+    <string name="main_home_mental_mood_0">very\nunpleasant</string>
+    <string name="main_home_mental_mood_1">unpleasant</string>
+    <string name="main_home_mental_mood_2">neutral</string>
+    <string name="main_home_mental_mood_3">pleasant</string>
+    <string name="main_home_mental_mood_4">very\npleasant</string>
+    <string name="main_home_mental_questionnaires"><u>Questionnaires</u></string>
+
+    <string name="main_data_tab_sport_activities">Sport Activities</string>
+    <string name="main_data_tab_questionnaires">Questionnaires</string>
+    <string name="main_data_tab_sensors">Sensors</string>
+    <string name="main_data_no_data">No data available</string>
+    <string name="main_data_dialog_delete_heading">Delete data</string>
+    <string name="main_data_dialog_delete_content">Do you really want to delete the selected data? This can not be undone!</string>
+    <string name="main_data_dialog_delete_no">Do not delete</string>
+    <string name="main_data_dialog_delete_yes">Yes, delete</string>
+
+    <string name="main_data_questionnaire_time">Time:</string>
+    <string name="main_data_questionnaire_mdbf_satisfied">MDBF Satisfied:</string>
+    <string name="main_data_questionnaire_mdbf_calm">MDBF Calm:</string>
+    <string name="main_data_questionnaire_mdbf_well">MDBF Well:</string>
+    <string name="main_data_questionnaire_mdbf_relaxed">MDBF Relaxed:</string>
+    <string name="main_data_questionnaire_mdbf_energetic">MDBF Energetic:</string>
+    <string name="main_data_questionnaire_mdbf_awake">MDBF Awake:</string>
+    <string name="main_data_questionnaire_event_negative">Event Negative:</string>
+    <string name="main_data_questionnaire_event_positive">Event Positive:</string>
+    <string name="main_data_questionnaire_social_alone">Social Alone:</string>
+    <string name="main_data_questionnaire_social_dislike">Social Dislike:</string>
+    <string name="main_data_questionnaire_social_people">Social People:</string>
+    <string name="main_data_questionnaire_location">Location:</string>
+    <string name="main_data_questionnaire_rumination_properties">Rumination Properties:</string>
+    <string name="main_data_questionnaire_rumination_rehash">Rumination Rehash:</string>
+    <string name="main_data_questionnaire_rumination_turnoff">Rumination Turn-Off:</string>
+    <string name="main_data_questionnaire_rumination_dispute">Rumination Dispute:</string>
+    <string name="main_data_questionnaire_selfworth_satisfied">Self-Worth Satisfied:</string>
+    <string name="main_data_questionnaire_selfworth_dissatisfied">Self-Worth Dissatisfied:</string>
+    <string name="main_data_questionnaire_impulsive">Impulsive:</string>
+    <string name="main_data_questionnaire_impulsive_angry">Impulsive Angry:</string>
+    <string name="main_data_questionnaire_message">Note:</string>
+
+    <string name="main_data_sensor_steps_heading">Steps:</string>
+    <string name="main_data_sensor_accelerometer_heading">Accelerometer:</string>
+    <string name="main_data_sensor_rotation_heading">Rotation:</string>
+    <string name="main_data_sensor_legend_xaxis">x-Axis</string>
+    <string name="main_data_sensor_legend_yaxis">y-Axis</string>
+    <string name="main_data_sensor_zaxis">z-Axis</string>
+    <string name="main_data_sensor_accelerometer_legend_acceleration">Acceleration</string>
+    <string name="main_data_questionnaire_alone_yes">Yes</string>
+    <string name="main_data_questionnaire_alone_no">No</string>
+
+    <string name="main_data_week_title">Week</string>
+    <string name="main_data_week_monday">Mon</string>
+    <string name="main_data_week_tuesday">Tue</string>
+    <string name="main_data_week_wednesday">Wed</string>
+    <string name="main_data_week_thursday">Thu</string>
+    <string name="main_data_week_friday">Fri</string>
+    <string name="main_data_week_saturday">Sat</string>
+    <string name="main_data_week_sunday">Sun</string>
+
+    <string name="server_no_internet">Connect to the internet</string>
+    <string name="server_error">Server error. Please try again later</string>
+    <string name="server_login_user_not_exist">eMail address is not registered</string>
+    <string name="server_login_invalid_credentials">Invalid credentials</string>
+    <string name="server_login_error">Login error. Please try again later</string>
+    <string name="server_register_already_registered">eMail address is already registered</string>
+    <string name="server_register_error">Registration error. Please try again later</string>
+    <string name="server_register_confirm_not_exist">eMail address is not registered. Repeat the registration</string>
+    <string name="server_register_confirm_invalid_credentials">The temporary password is incorrect</string>
+    <string name="server_register_confirm_send_mail">eMail has been sent</string>
+    <string name="server_edit_user_data_incorrect_password">Password is incorrect</string>
+    <string name="server_edit_user_data_email_taken">eMail address is already taken</string>
+    <string name="server_edit_user_data_error">An error occurred while updating your data. Please try again later</string>
+
+</resources>
