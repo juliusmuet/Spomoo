@@ -13,10 +13,10 @@ The app can be used in English and German.
      <td>Data screen of the app</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true" width=270></td>
-    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true" width=270></td>
-    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true" width=270></td>
-    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width=270></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true" width=270 height=470></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true" width=270 height=470></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true" width=270 height=470></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width=270 height=470></td>
   </tr>
 </table>
 
