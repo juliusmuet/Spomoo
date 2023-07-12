@@ -41,6 +41,7 @@ public class TimeDateFormatter {
 
     //converts dd.MM.yyyy to yyyy-MM-dd
     public static String toSQLDate(String UIDate){
+        if(UIDate.isEmpty()) return "";
         SimpleDateFormat sdf = new SimpleDateFormat(Constants.DATE_FORMAT_UI);
         Date d = null;
         try {
@@ -54,6 +55,7 @@ public class TimeDateFormatter {
 
     //converts yyyy-MM-dd to dd.MM.yyyy
     public static String toUIDate(String UIDate){
+        if(UIDate.isEmpty()) return "";
         SimpleDateFormat sdf = new SimpleDateFormat(Constants.DATE_FORMAT_SQL);
         Date d = null;
         try {

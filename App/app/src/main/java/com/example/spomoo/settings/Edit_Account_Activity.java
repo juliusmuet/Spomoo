@@ -108,7 +108,7 @@ public class Edit_Account_Activity extends AppCompatActivity {
         if(userData.getGender().equals("Männlich")) genderInput.setText(getString(R.string.settings_edit_account_gender_male));
         if(userData.getGender().equals("Weiblich")) genderInput.setText(getString(R.string.settings_edit_account_gender_female));
         if(userData.getGender().equals("")) genderInput.setText(getString(R.string.settings_edit_account_gender_no));
-        if(userData.getBirthday() != null) birthdayInput.setText(userData.getBirthday());
+        if(!userData.getBirthday().isEmpty()) birthdayInput.setText(userData.getBirthday());
         if(userData.getHeight() != -1) heightInput.setText(String.valueOf(userData.getHeight()));
         if(userData.getWeight() != -1) weightInput.setText(String.valueOf(userData.getWeight()));
 
@@ -356,8 +356,8 @@ public class Edit_Account_Activity extends AppCompatActivity {
 
         if(userData.getHeight() == -1 && !heightInput.getText().toString().trim().equals("")) return false;
         if(userData.getWeight() == -1 && !weightInput.getText().toString().trim().equals("")) return false;
-        if(!String.valueOf(userData.getHeight()).equals(heightInput.getText().toString().trim())) return false;
-        if(!String.valueOf(userData.getWeight()).equals(weightInput.getText().toString().trim())) return false;
+        if(userData.getHeight() != -1 && !String.valueOf(userData.getHeight()).equals(heightInput.getText().toString().trim())) return false;
+        if(userData.getWeight() != -1 && !String.valueOf(userData.getWeight()).equals(weightInput.getText().toString().trim())) return false;
 
         String gender = "";
         if(genderInput.getText().toString().trim().equals(getString(R.string.settings_edit_account_gender_male))) gender = "Männlich";
