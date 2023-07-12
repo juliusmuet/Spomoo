@@ -53,4 +53,4 @@ The prototype for this project was developed in cooperation with
 - [@Pero](https://github.com/Programmero187)
 - [@TomRei1103](https://github.com/TomRei1103)
 
-The final product was created only by me [@Julius](https://github.com/juliusmuet)
+The final product was created only by me: [@Julius](https://github.com/juliusmuet)
