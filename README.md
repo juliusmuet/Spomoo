@@ -2,8 +2,23 @@
 # Spomoo Android App
 
 This Android app was developed as part of my bachelor's thesis and tracks the user's physical activity and mental health.
-It continuously records the acceleration and rotation sensors as well as the step counter of the Android smartphone. In addition, the user's sport activities can be saved by recording the time spent exercising, and their mental health can be determined by answering a questionnaire. This data can be viewed locally in the app and sent to a server so that a research team can analyse the relation between physical and mental well-being from this data.
+It continuously records the acceleration and rotation sensors as well as the step counter of the Android smartphone. In addition, the user's sport activities can be saved by recording the time spent exercising and their mental health can be determined by answering a questionnaire. This data can be viewed locally in the app and sent to a server so that a research team can analyse the relation between physical and mental well-being from this data.
 The app can be used in English and German.
+
+<table>
+  <tr>
+     <td>Homescreen of the App</td>
+     <td>Sample question of the questionnaire</td>
+     <td>Recording a sport activity</td>
+     <td>Data screen of the app</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width=270 height=480></td>
+  </tr>
+</table>
 
 ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true)
 Homescreen of the App
