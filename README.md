@@ -21,13 +21,15 @@ In order to use the app, you have to:
 
 ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true)
 Homescreen of the App
+
 ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true)
 Sample question of the questionnaire
+
 ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true)
 Recording a sport activity
+
 ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true)
 Data screen of the app
-More screenshots can be viewed here: https://github.com/juliusmuet/Spomoo/tree/main/App-Screenshots
 
 More screenshots can be viewed here: https://github.com/juliusmuet/Spomoo/tree/main/App-Screenshots
 
