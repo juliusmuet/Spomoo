@@ -3,7 +3,7 @@ package com.example.spomoo.settings;
 /*
  * Data_Privacy_Activity of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import androidx.appcompat.app.AppCompatActivity;

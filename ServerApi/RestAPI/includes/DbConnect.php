@@ -1,5 +1,7 @@
 <?php 
 /*
+ * Author: Julius Müther
+ * License: MIT License
  * Backend of Spomoo application
  * Establishes a connection to the SQL database
  */

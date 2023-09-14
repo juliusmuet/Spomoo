@@ -1,6 +1,9 @@
 <?php
 
-/* API of Spomoo application/json
+/* 
+ * Author: Julius Müther
+ * License: MIT License
+ * API of Spomoo application/json
  * Restful PHP script using Slim Framework
  * Implements Http Basic Authentication
  */

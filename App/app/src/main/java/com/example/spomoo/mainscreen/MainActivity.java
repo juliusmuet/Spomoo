@@ -3,7 +3,7 @@ package com.example.spomoo.mainscreen;
 /*
  * MainActivity of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import android.app.ActivityManager;

@@ -3,7 +3,7 @@ package com.example.spomoo.serverinteraction;
 /*
  * ResponseLogin of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import com.example.spomoo.questionnaire.QuestionnaireData;

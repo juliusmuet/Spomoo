@@ -1,5 +1,7 @@
 <?php 
 /*
+ * Author: Julius Müther
+ * License: MIT License
  * Backend of Spomoo application
  * Contains all constants
  */

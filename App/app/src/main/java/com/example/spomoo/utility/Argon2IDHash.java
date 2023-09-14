@@ -3,7 +3,7 @@ package com.example.spomoo.utility;
 /*
  * Argon2IDHash of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import com.lambdapioneer.argon2kt.Argon2Kt;

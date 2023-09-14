@@ -3,7 +3,7 @@ package com.example.spomoo.sensorrecording;
 /*
  * AccelerometerData of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import com.google.gson.annotations.SerializedName;

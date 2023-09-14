@@ -3,7 +3,7 @@ package com.example.spomoo.serverinteraction;
 /*
  * ApiRequests of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import retrofit2.Call;

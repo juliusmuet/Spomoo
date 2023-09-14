@@ -3,7 +3,7 @@ package com.example.spomoo.questionnaire;
 /*
  * Questionnaire_EventAppraisal_Fragment of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import android.os.Bundle;

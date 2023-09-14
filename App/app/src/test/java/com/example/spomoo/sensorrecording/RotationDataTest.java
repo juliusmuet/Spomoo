@@ -3,7 +3,7 @@ package com.example.spomoo.sensorrecording;
 /*
  * RotationDataTest of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import static org.junit.Assert.*;

@@ -3,7 +3,7 @@ package com.example.spomoo.settings;
 /*
  * Edit_Account_Activity of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 import android.content.Intent;

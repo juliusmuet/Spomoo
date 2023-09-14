@@ -2,7 +2,7 @@ package com.example.spomoo.utility;
 /*
  * UserData of Spomoo Application
  * Author: Julius Müther
- * Only for private usage
+ * License: MIT License
  */
 
 /*
