@@ -19,29 +19,21 @@ In order to use the app, you have to:
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true" width="200"><br>
-      <b>Homescreen</b>
-    </td>
-    <td align="center">
-      <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true" width="200"><br>
-      <b>Sample question of the questionnaire</b>
-    </td>
-    <td align="center">
-      <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true" width="200"><br>
-      <b>Recording a sport activity</b>
-    </td>
-    <td align="center">
-      <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width="200"><br>
-      <b>Data screen for weekly overview</b>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true" width="200">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true" width="200">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true" width="200">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width="200">
+</p>
+
+<p align="center">
+  <b>Homescreen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Questionnaire Page</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Recording Sport Activity</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Data Screen for weekly Overview</b>
+</p>
 
 More screenshots can be viewed here: [App-Screenshots](https://github.com/juliusmuet/Spomoo/tree/main/App-Screenshots)
-
 
 
 # Authors
