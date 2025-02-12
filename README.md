@@ -35,7 +35,7 @@ In order to use the app, you have to:
     </td>
     <td align="center">
       <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width="200"><br>
-      <b>Data screen</b>
+      <b>Data screen for weekly overview</b>
     </td>
   </tr>
 </table>
