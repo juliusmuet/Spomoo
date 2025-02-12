@@ -19,9 +19,19 @@ In order to use the app, you have to:
 
 ## Screenshots
 
-| ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true) | ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true) | ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true) | ![Screenshot](https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true) |
-|:--:|:--:|:--:|:--:|
-| Homescreen of the App | Sample question of the questionnaire | Recording a sport activity | Data screen of the app |
+<p align="center">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Home_1.jpg?raw=true" width="200">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Questionnaire_1.jpg?raw=true" width="200">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Sport_2.jpg?raw=true" width="200">
+  <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width="200">
+</p>
+
+<p align="center">
+  <b>Homescreen</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Questionnaire</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Sport Activity</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Data Screen</b>
+</p>
 
 More screenshots can be viewed here: [App-Screenshots](https://github.com/juliusmuet/Spomoo/tree/main/App-Screenshots)
 
