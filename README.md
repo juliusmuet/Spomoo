@@ -31,13 +31,13 @@ More screenshots can be viewed here: [App-Screenshots](https://github.com/julius
 
 # Authors
 
-The prototype for this project was developed in cooperation with
+The prototype for this project was developed as part of the "Software-Engineering Labs" course at Ruhr-University Bochum in cooperation with
 - [@Johanna1313](https://github.com/Johanna1313)
 - [@MissCaro](https://github.com/MissCaroo)
 - [@Pero](https://github.com/Programmero187)
 - [@TomRei1103](https://github.com/TomRei1103)
 
-The final product was created only by me: [@Julius](https://github.com/juliusmuet)
+The final product, which is the outcome of my Bachelor thesis, was created only by me: [@Julius](https://github.com/juliusmuet)
 
 
 ## License
