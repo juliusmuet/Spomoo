@@ -26,13 +26,6 @@ In order to use the app, you have to:
   <img src="https://github.com/juliusmuet/Spomoo/blob/main/App-Screenshots/Data_1.jpg?raw=true" width="200">
 </p>
 
-<p align="center">
-  <b>Homescreen</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Questionnaire Page</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Recording Sport Activity</b> &nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Data Screen for weekly Overview</b>
-</p>
-
 More screenshots can be viewed here: [App-Screenshots](https://github.com/juliusmuet/Spomoo/tree/main/App-Screenshots)
 
 
